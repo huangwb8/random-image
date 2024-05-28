@@ -33,7 +33,7 @@ docker build -t random-image .
 docker-compose up -d
 ```
 
-+ 假设用`https://randomimage.hwb0307.com`反代了该容器的局域网`http://ip:1000`，将链接`https://randomimage.hwb0307.com`添加到个人博客的背景图片中即可。以WordPress主题**[Argon](https://github.com/solstice23/argon-theme)** 为例，添加位置如下：
++ 假设用`https://randomimage.hwb0307.com`反代了该容器的局域网`http://ip:1000`，将链接`https://randomimage.hwb0307.com`添加到个人博客的背景图片中即可。以WordPress主题[Argon](https://github.com/solstice23/argon-theme)为例，添加位置如下：
 
 ![image-20240528201658420](https://chevereto.hwb0307.com/images/2024/05/28/image-20240528201658420.png)
 
