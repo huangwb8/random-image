@@ -3,16 +3,14 @@ services:
   random-image:
     image: random-image
     container_name: random-image
-    expose:
-      - '80'
+    ports:
+      - 1000:80
     volumes:
       - ./index.php:/var/www/html/index.php
+      # PC/iPAD端壁纸链接
       - ./img.txt:/var/www/html/img.txt
+      # 手机端壁纸链接
       - ./img_mobile.txt:/var/www/html/img_mobile.txt
     restart: unless-stopped
     networks:
-      - default
-
-networks:
-  default:
-    name: npm_default
+      - random-image
