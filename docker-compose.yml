@@ -1,0 +1,18 @@
+version: '3.0'
+services:
+  random-image:
+    image: random-image
+    container_name: random-image
+    expose:
+      - '80'
+    volumes:
+      - ./index.php:/var/www/html/index.php
+      - ./img.txt:/var/www/html/img.txt
+      - ./img_mobile.txt:/var/www/html/img_mobile.txt
+    restart: unless-stopped
+    networks:
+      - default
+
+networks:
+  default:
+    name: npm_default
