@@ -8,7 +8,7 @@
 + 基于PHP
 + 依据访问设备类型（PC/iPad vs. Mobile）选择不同壁纸
 
-![](https://chevereto.hwb0307.com/images/2024/05/28/msedge_Lob04vv27a.webp)
+![msedge_Lob04vv27a](https://chevereto.hwb0307.com/images/2024/05/28/msedge_Lob04vv27a.jpg)
 
 ## 用法
 
