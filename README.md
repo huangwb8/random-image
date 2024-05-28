@@ -1,6 +1,5 @@
 # random-image
 
-[TOC]
 
 ## 概述
 
