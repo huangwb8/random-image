@@ -1,4 +1,4 @@
-# random-image
+# Random Image API
 
 
 ## 概述
